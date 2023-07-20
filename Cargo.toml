@@ -1,0 +1,11 @@
+[package]
+name = "ick"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+gtk = { version = "0.6.6", package = "gtk4", features = ["v4_6"] }
+rand = "0.8.5"
+serde = { version = "1.0.164", features = ["derive"] }
+serde_json = "1.0.99"
+smart-default = "0.7.1"
